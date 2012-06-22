@@ -24,15 +24,15 @@
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2att/BoardConfigVendor.mk
+-include vendor/samsung/d2spr/BoardConfigVendor.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := d2att
+TARGET_BOOTLOADER_BOARD_NAME := d2spr
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2att
+TARGET_OTA_ASSERT_DEVICE := d2spr
 
 # Kernel
-TARGET_PREBUILT_KERNEL      := device/samsung/d2att/prebuilt/kernel
+TARGET_PREBUILT_KERNEL      := device/samsung/d2spr/prebuilt/kernel
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31
 BOARD_KERNEL_BASE           := 0x80200000
 BOARD_FORCE_RAMDISK_ADDRESS := 0x81500000
