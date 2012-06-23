@@ -13,6 +13,7 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
 
 dev.pm.dyn_samplingrate=1
 
@@ -70,11 +71,16 @@ persist.gps.qmienabled=true
 
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
-ro.telephony.ril_class=SamsungQualcommUiccRIL
-telephony.lteOnGsmDevice=1
+# Fields for custom RIL
+# MAX PROP NAME is 31 chars --|
+ro.telephony.ril_class=QualcommSharedRIL
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+ro.telephony.default_network=4
+keyguard.no_require_sim=true
 
-# Property to allow IccCard to properly handle APPSTATE_SUBSCRIPTION_PERSO
-ro.telephony.ril.v3=qcomuiccstack
+# For CDMALTE project
+telephony.lteOnCdmaDevice=1
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
