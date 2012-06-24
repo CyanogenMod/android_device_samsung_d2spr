@@ -72,7 +72,16 @@ persist.gps.qmienabled=true
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
 ro.telephony.ril_class=SamsungQualcommUiccRIL
-telephony.lteOnGsmDevice=1 
+telephony.lteOnGsmDevice=1
+# force gsm stack
+ro.telephony.default_network=0
+gsm.sim.operator.alpha = sprint
+gsm.sim.operator.numeric = 310120
+gsm.sim.operator.iso-country = us
+gsm.operator.alpha = sprint
+gsm.operator.numeric = 310120
+gsm.operator.iso-country = us
+
 # switched back to gsm stack for data to work, still the same behavior as cdma but with data
 # ro.cdma.home.operator.numeric=310120
 # ro.cdma.home.operator.alpha=Sprint
