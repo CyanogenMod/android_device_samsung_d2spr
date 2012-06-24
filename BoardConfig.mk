@@ -26,8 +26,6 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2spr/BoardConfigVendor.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := d2spr
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2spr
 
