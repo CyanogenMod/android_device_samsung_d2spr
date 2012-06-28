@@ -71,28 +71,20 @@ persist.gps.qmienabled=true
 
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
-ro.telephony.ril_class=SamsungQualcommUiccRIL
-telephony.lteOnGsmDevice=1
-# force gsm stack
-ro.telephony.default_network=0
+ro.telephony.ril_class=SamsungCDMAQualcommRIL
 gsm.sim.operator.alpha = sprint
 gsm.sim.operator.numeric = 310120
 gsm.sim.operator.iso-country = us
 gsm.operator.alpha = sprint
 gsm.operator.numeric = 310120
 gsm.operator.iso-country = us
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+ro.telephony.default_network=4
+keyguard.no_require_sim=true
+DEVICE_PROVISIONED=1
+telephony.lteOnCdmaDevice=1
 
-# switched back to gsm stack for data to work, still the same behavior as cdma but with data
-# ro.cdma.home.operator.numeric=310120
-# ro.cdma.home.operator.alpha=Sprint
-# ro.telephony.default_network=4
-# keyguard.no_require_sim=true
-# DEVICE_PROVISIONED=1
-# telephony.lteOnCdmaDevice=1
-
-# Property to allow IccCard to properly handle APPSTATE_SUBSCRIPTION_PERSO
-# required for quallcomm ril because stops force closes in phone.apk. 
-ro.telephony.ril.v3=qcomuiccstack
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
