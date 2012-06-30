@@ -47,10 +47,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/d2spr/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
 
-# enable repeatable keys in cwm
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cwm.enable_key_repeat=true
-
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
 
