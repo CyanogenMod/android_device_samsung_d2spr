@@ -56,7 +56,7 @@ set -e
 repo start auto frameworks/base/
 cdv frameworks/base
 echo 'Add SamsungCDMAQualcommRIL class http://review.cyanogenmod.com/#/c/18352/'
-git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/52/18352/4 && git cherry-pick FETCH_HEAD
+git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/52/18352/5 && git cherry-pick FETCH_HEAD
 echo 'camera: Send proper preview window updates to HAL http://review.cyanogenmod.com/#/c/18206/'
 git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/06/18206/1 && git cherry-pick FETCH_HEAD
 cdb
