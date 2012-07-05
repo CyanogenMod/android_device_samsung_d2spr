@@ -63,7 +63,7 @@ cdb
 repo start auto packages/apps/Camera/
 cdv packages/apps/Camera/
 echo 'Support for ZSL on samsung cameras http://review.cyanogenmod.com/#/c/18205/'
-git fetch http://review.cyanogenmod.com/CyanogenMod/android_packages_apps_Camera refs/changes/05/18205/2 && git cherry-pick FETCH_HEAD
+git fetch http://review.cyanogenmod.com/CyanogenMod/android_packages_apps_Camera refs/changes/05/18205/4 && git cherry-pick FETCH_HEAD
 cdb
 
 ##### SUCCESS ####
