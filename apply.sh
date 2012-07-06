@@ -55,15 +55,8 @@ set -e
 
 repo start auto frameworks/base/
 cdv frameworks/base
-echo 'Add SamsungCDMAQualcommRIL class http://review.cyanogenmod.com/#/c/18352/'
-git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/52/18352/7 && git cherry-pick FETCH_HEAD
 echo 'camera: Send proper preview window updates to HAL http://review.cyanogenmod.com/#/c/18206/'
 git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/06/18206/1 && git cherry-pick FETCH_HEAD
-cdb
-repo start auto packages/apps/Camera/
-cdv packages/apps/Camera/
-echo 'Support for ZSL on samsung cameras http://review.cyanogenmod.com/#/c/18205/'
-git fetch http://review.cyanogenmod.com/CyanogenMod/android_packages_apps_Camera refs/changes/05/18205/4 && git cherry-pick FETCH_HEAD
 cdb
 
 ##### SUCCESS ####
