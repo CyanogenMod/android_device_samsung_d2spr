@@ -53,11 +53,11 @@ set -e
 ################ Apply Patches Below ####################
 
 
-repo start auto frameworks/base/
-cdv frameworks/base
-echo 'camera: Send proper preview window updates to HAL http://review.cyanogenmod.com/#/c/18206/'
-git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/06/18206/1 && git cherry-pick FETCH_HEAD
-cdb
+#repo start auto frameworks/base/
+#cdv frameworks/base
+#echo 'camera: Send proper preview window updates to HAL http://review.cyanogenmod.com/#/c/18206/'
+#git fetch http://review.cyanogenmod.com/CyanogenMod/android_frameworks_base refs/changes/06/18206/1 && git cherry-pick FETCH_HEAD
+#cdb
 
 ##### SUCCESS ####
 SUCCESS=true
