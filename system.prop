@@ -84,7 +84,7 @@ ro.telephony.default_network=4
 keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
-
+ro.config.svlte1x=true
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
