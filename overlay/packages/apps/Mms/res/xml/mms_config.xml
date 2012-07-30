@@ -32,7 +32,7 @@
     <int name="maxImageWidth">640</int>
 
     <!-- User-Agent parameter used in MMS http request -->
-    <string name="userAgent">SAMSUNG-GT-I9100-Mms</string>
+    <string name="userAgent">SAMSUNG-SPH-L710-Mms/2.0</string>
 
     <!-- If true, The text message over 160 characters will be sent in multi part.
          If false, The text message over 160 characters will be sent
@@ -44,6 +44,6 @@
     <bool name="enableSplitSMS">true</bool>
 
     <!-- UAProf URL -->
-    <string name="uaProfUrl">http://wap.samsungmobile.com/uaprof/GT-I9100.xml</string>
+    <string name="uaProfUrl">http://device.sprintpcs.com/Samsung/</string>
 
 </mms_config>
