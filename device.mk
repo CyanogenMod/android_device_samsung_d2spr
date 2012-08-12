@@ -19,8 +19,6 @@ $(call inherit-product-if-exists, vendor/samsung/d2spr/d2spr-vendor.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2spr/overlay
-PRODUCT_COPY_FILES := \
-    device/samsung/d2spr/apns-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
