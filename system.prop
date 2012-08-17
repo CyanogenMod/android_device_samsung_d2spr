@@ -101,5 +101,3 @@ ro.ril.ecclist=112,911,#911,*911
 com.qc.hardware=true
 com.qc.hdmi_out=true
 ro.hdmi.enable=true
-
-ro.cwm.enable_key_repeat=true
