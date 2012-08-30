@@ -30,5 +30,4 @@
 TARGET_OTA_ASSERT_DEVICE := d2spr
 
 # Kernel
-TARGET_KERNEL_SOURCE    := kernel/samsung/d2
 TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
