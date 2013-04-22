@@ -12,3 +12,7 @@ ro.cdma.home.operator.alpha=Sprint
 ro.telephony.default_network=8
 telephony.lteOnCdmaDevice=1
 telephony.sms.pseudo_multipart=1
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+persist.eons.enabled=false
+
