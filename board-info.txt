@@ -1,0 +1,2 @@
+require version-bootloader=L710VPBMD4
+
