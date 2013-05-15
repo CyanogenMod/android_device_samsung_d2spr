@@ -1,2 +1,2 @@
-require version-bootloader=L710VPBMD4
+require version-bootloader=L710VPBLJ7|L710VPBMA6|L710VPBMB1|L710VPBMD4
 
