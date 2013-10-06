@@ -1,7 +1,9 @@
 $(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/cdma.mk)
+# CDMA APN list
+PRODUCT_COPY_FILES += \
+    device/samsung/d2spr/apns-conf-cdma.xml:system/etc/apns-conf.xml
+
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
