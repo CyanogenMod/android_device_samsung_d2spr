@@ -27,7 +27,7 @@
 -include vendor/samsung/d2spr/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi,d2tfnspr
+TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi,d2tfnspr,d2lte
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
 
