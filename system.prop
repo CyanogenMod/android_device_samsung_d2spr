@@ -12,5 +12,4 @@ telephony.sms.pseudo_multipart=1
 persist.radio.snapshot_enabled=1
 persist.radio.snapshot_timer=22
 persist.eons.enabled=false
-ro.cdma.subscribe_on_ruim_ready=true
 ro.ril.svdo=true
