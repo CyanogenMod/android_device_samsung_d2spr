@@ -18,4 +18,7 @@
     <!-- Show APN Settings for some CDMA carriers -->
     <bool name="config_show_apn_setting_cdma">true</bool>
 
+    <!-- Sprint Message Wait Indicator Quirk -->
+    <bool name="sprint_mwi_quirk">true</bool>
+
 </resources>
